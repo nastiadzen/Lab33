@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:id="@+id/main"
+    tools:ignore="ExtraText"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/headerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/option"
+        android:textSize="24sp"
+        android:textColor="#212121"
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="sans-serif-medium"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="@string/inputtext"
+        android:minHeight="48dp"
+        android:textColorHint="#546E7A"
+        tools:ignore="TextFields,VisualLintTextFieldSize"
+        android:textColor="#212121"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif"/>
+
+    <Button
+        android:id="@+id/authorButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/author_button"
+        tools:ignore="VisualLintButtonSize"
+        android:layout_marginBottom="8dp"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:elevation="4dp"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/facultyButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/faculty_button"
+        tools:ignore="VisualLintButtonSize"
+        android:layout_marginBottom="8dp"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:elevation="4dp"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/cityButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/city_button"
+        tools:ignore="VisualLintButtonSize"
+        android:layout_marginBottom="8dp"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:elevation="4dp"
+        android:textSize="16sp"/>
+
+</LinearLayout>

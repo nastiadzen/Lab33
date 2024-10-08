@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lab33</string>
+    <string name="option">Оберіть опцію</string>
+    <string name="author_button">Відомості про автора</string>
+    <string name="city_button">Відомості про місто</string>
+    <string name="inputtext">Введіть текст</string>
+    <string name="faculty_button">Відомості про факультет</string>
+    <string name="information_will_be_displayed_here">Information will be displayed here</string>
+    <string name="backButton">Back</string>
+</resources>
